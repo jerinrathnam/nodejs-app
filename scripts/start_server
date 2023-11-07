@@ -1,6 +1,6 @@
 #!/bin/bash
 source /app/scripts/variables.sh
 
-cd /home/$USER_NAME/public_html
+cd /home/node/public_html
 npm install
-pm2 start /home/$USER_NAME/public_html/index.js
+pm2 start /home/node/public_html/index.js
