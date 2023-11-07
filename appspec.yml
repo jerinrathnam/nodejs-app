@@ -2,7 +2,14 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /app
+    destination: /home/node/public_html   
+    overwrite: true
+permissions:
+  - object: /
+    pattern: "**"
+    owner: node
+    group: node
+    
 hooks:
   AfterInstall:
     - location: scripts/install

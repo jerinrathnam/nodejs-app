@@ -1,7 +1,6 @@
 #!/bin/bash
 source /app/scripts/variables.sh
 
-cd $DESTINATION_PATH
-cp -arp  /app/* /home/$USER_NAME/public_html
-sudo npm install
-sudo pm2 start index.js
+cd /home/$USER_NAME/public_html
+npm install
+pm2 start index.js
