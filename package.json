@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-pm2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jerinrathnam@bitbucket.org/jerinrathnam/nodejs-pm2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/jerinrathnam/nodejs-pm2/issues"
+  },
+  "homepage": "https://bitbucket.org/jerinrathnam/nodejs-pm2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

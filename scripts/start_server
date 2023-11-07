@@ -1,0 +1,6 @@
+#!/bin/bash
+source /app/scripts/variables.sh
+
+cd $DESTINATION_PATH
+cp -arp  app/* /home/$USER_NAME/public_html
+pm2 start index.js

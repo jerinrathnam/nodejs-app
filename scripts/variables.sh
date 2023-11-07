@@ -1,0 +1,2 @@
+USER_NAME="node"
+DESTINATION_PATH="/app"
