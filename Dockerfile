@@ -6,6 +6,7 @@ WORKDIR /webserver
 
 COPY ./ ./
 
-CMD ["pm2", "start", "index.js"]
+#CMD ["pm2", "start", "index.js"]
+CMD [ "npm", "start" ]
 
 EXPOSE 3000
