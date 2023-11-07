@@ -4,9 +4,12 @@ RUN mkdir -p /webserver
 
 WORKDIR /webserver
 
+COPY package*.json ./
+
+RUN npm install
+
 COPY ./ ./
 
-#CMD ["pm2", "start", "index.js"]
-CMD [ "npm", "start" ]
+CMD ["node", "index.js"]
 
 EXPOSE 3000
