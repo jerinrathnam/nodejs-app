@@ -3,4 +3,4 @@ source /app/scripts/variables.sh
 
 cd /home/$USER_NAME/public_html
 npm install
-pm2 start /home/$USER_NAME/public_htmlindex.js
+pm2 start /home/$USER_NAME/public_html/index.js
