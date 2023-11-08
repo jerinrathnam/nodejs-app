@@ -1,5 +1,4 @@
 #!/bin/bash
 
 cd /home/node/public_html
-npm install
-pm2 start index.js
+pm2 stop index.js || true

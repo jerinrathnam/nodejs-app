@@ -12,7 +12,7 @@ permissions:
     
 hooks:
   AfterInstall:
-    - location: scripts/install
+    - location: scripts/before_install
       timeout: 300
       runas: root
   ApplicationStart:
